@@ -1,0 +1,254 @@
+body { 
+  font-family: Montserrat, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.container { 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
+
+/* Estilos del encabezado */ 
+
+header { 
+  background-color: #f9f9f9; 
+  padding: 10px 0; }
+
+a { 
+  text-decoration: none; 
+}
+
+.logo-imagen {
+  max-width: 15%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.imagen { 
+  max-width: 15%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+  margin-bottom: 10px; 
+}
+
+.contenedor{ 
+  background-color: #674188; 
+  padding: 0 2em; 
+  height: 40px; 
+  width: 100%; 
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.boton{ 
+  color: white; 
+  font-weight: bold; 
+  display: inline-block; 
+  background-color: #674188; 
+  line-height: 2.5; 
+  padding: 0 2em; 
+  text-decoration: none; 
+}
+
+.boton:hover { 
+  background-color: #C3ACD0; 
+}
+
+.search-bar { 
+  display: flex; 
+  align-items: center; 
+}
+
+.search-bar input[type="text"] { 
+  padding: 10px 50px; 
+  border: none; 
+  border-radius: 3px 0 0 3px; 
+  flex-grow: 1; 
+}
+
+.search-bar button { 
+  padding: 10px 30px; 
+  background-color: #333; 
+  color: #fff; 
+  border: none; 
+  border-radius: 0 3px 3px 0; 
+}
+
+.search-bar button:hover { 
+  background-color: #555; 
+}
+
+nav { 
+  display: flex; 
+  align-items: center; 
+}
+
+nav ul { 
+  list-style: none; 
+  display: flex; 
+}
+
+nav ul li { 
+  margin-left: 20px; 
+}
+
+nav ul li a { 
+  text-decoration: none; 
+  color: #333; 
+}
+
+/* Estilos del multinivel */
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu > li {
+  position: relative;
+}
+
+.menu > li > a {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #674188;
+  line-height: 2.5;
+  padding: 0 2em;
+  text-decoration: none;
+}
+
+.menu > li:hover > .submenu {
+  display: flex;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  background-color: #674188;
+  padding: 10px;
+  z-index: 1;
+}
+
+.submenu > li {
+  margin-top: 10px;
+}
+
+.submenu > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.submenu > li > a:hover {
+  text-decoration: underline;
+}
+
+
+/* Estilos del cuerpo de la página */ 
+.container { 
+  max-width: 400px; 
+  flex-grow: 1; 
+}
+
+section.titulo { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  background-size: cover; 
+  background-position: center; 
+  color: #6E508C; 
+  padding: 50px 0; 
+  background-color: #FFFBF5; 
+}
+
+section.titulo img { 
+  margin-left: 60px;
+  margin-top: -20px;
+}
+
+.container-titulo { 
+  display: flex; 
+}
+
+.titulo h2 { 
+  font-size: 60px; 
+  font-family: Montserrat, sans-serif; 
+  margin-bottom: 10px; 
+  text-align: center; 
+  margin-left: -90px; 
+  margin-top: -20px; 
+  color: #674188; 
+}
+
+.titulo p { 
+  font-size: 17px; 
+  margin-top: 10px; 
+  margin-left: -90px;
+  margin-bottom: 30px; 
+  text-align: center; 
+  color: black;
+}
+
+.subtitulo { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  margin-top: 90px; 
+  margin-left: -170px; 
+  color: black; 
+  width: 80%; 
+  height: 90px; 
+}
+
+.visitar { 
+  background-color: #674188; 
+  color: white; 
+  border: none; 
+  font-size: 20px; 
+  padding: 20px 40px; 
+  margin-left: 170px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  text-decoration: none; 
+  border-radius: 20px; 
+}
+
+.visitar:hover { 
+  background-color: #C3ACD0; 
+}
+
+h3 { 
+  font-size: 30px; 
+  font-family: Montserrat, sans-serif; 
+  color: #674188; 
+}
+
+.subtitulo p { 
+  font-size: 17px; 
+  margin-top: -20px; 
+  margin-bottom: 30px; 
+  margin-left: 0px; 
+  text-align: left; 
+}
+
+/* Estilos del pie de página */ 
+
+footer { 
+  background-color: #674188; 
+  color: #fff; 
+  padding: 10px 0; 
+  text-align: center; 
+}
+
+footer p { 
+  margin: 0; 
+}
